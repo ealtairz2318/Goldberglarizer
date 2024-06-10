@@ -229,7 +229,6 @@ namespace Goldbergalizer
                 Console.WriteLine($"An error occurred while caching folder path: {ex.Message}");
             }
         }// Events when closing the application 
-
         public void UpdateEmulator(object sender, EventArgs e)
         {
             // Get the directory where the application is located
